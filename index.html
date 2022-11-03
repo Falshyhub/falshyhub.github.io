@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shane Falero Portfolio Site | Codecademy project</title>
+        <link href = './resources/style.css' rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./resources/main.js" defer></script>
+        </head>
+    <body>
+        <!-- header section-->
+        <header id="top">
+            <div id='header' class="flex">
+                <div id="logo">SMF</div>
+                <nav>
+                    <ul id='headerlist' class="flex headerlist">
+                        <a id="homehead" href="./index.html">Home</a>
+                        <a id="biohead" class="biohead">Bio</a>
+                        <a id="aboutmehead" href="./resources/aboutMe.html">About Me</a>
+                        <a id="contactmehead" href="./resources/contact.html">Contact Me</a>
+                    </ul>
+                </nav>
+            </div>            
+        </header>
+        
+        <!--main section-->
+        <main>
+            <!--main screen on launch-->
+            <section class="flex" id="main">
+                <div class="flex column" id="intro">
+                    <h1 class="inline column" id="desc">
+                        <span id="name">Hi there! I'm Shane Falero,</span>
+                        <span id="jobtitle">Software <br>Developer<span class="color1"> |</span></span>
+                        <span id="dev">in the making</span>
+                        <span id="introdesc">A talented, well-rounded, hard-working individual adept in life-long learning seeking a long-term career in software development. </span>
+                    </h1>                     
+                </div>
+                <img id = 'self-portrait' src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t31.18172-8/893076_10203146835860161_240480977_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=eY7FBMfbi90AX8vOrqe&_nc_ht=scontent.ftpa1-2.fna&oh=00_AT_aiIFCAhh7M_FmLBeDz0fXSWoc6tmPMM3LHaeP14AOCw&oe=63669D7F">
+            </section>
+
+            <!--bio link-->
+            <section id="bio">
+                <div id="bioheader" class=flex>
+                    <h1>Bio</h1>
+                    <button id="bioheaderbutton">x</button>
+                </div>
+                
+                <div id='bioresume' class="flex bio">
+                    <ul>                    
+                        <li>Born: July, 28 1992</li>
+                        <li>Height: 5"9' </li>
+                        <li>Hair Color: Brown </li>
+                        <li>Eye Color: Brown</li>
+                    </ul>
+                    
+                    <ul>
+                        <h2 id="resume">Professional Resume</h2>
+                        <li><i class="fa fa-file" fill='#6a18c9' data-color="#eef4f7"></i><a href="" download>Download Resume</a></li>
+                    </ul>
+                </div>
+
+                <hr>
+                
+                <div id="hobbyeducation" class="flex bio">                
+                    <ul>
+                        <h2 id="hobbies">Hobbies</h2>
+                        <li>Video Games</li>
+                        <li>Hiking</li>
+                        <li>Bouldering</li>
+                        <li>Dog loving</li> 
+                    </ul>
+                
+                    <ul>
+                        <h2 id="education">Education and Training</h2>
+                        <li>High school Diploma<br>Spring Valley High School<br>Columbia, SC</li>
+                        <li>Bachelors in Biological Science<br>Coastal Carolina University<br> Conway, SC</li>
+                        <li>Doctorate in Veterinary Medicine<br>University of Georgia<br>Athens, GA</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--About Me section-->
+            <section id="aboutme" class="flex">
+                <div id="hiddenbox"></div>
+                <div id="aboutmedesc" class="inline column">
+                    <div id="aboutmetop">
+                        <h1 class="column">
+                            <span id="about1">a short</span><br>
+                            <span id="about2">ABOUT ME</span>
+                        </h1>
+                        <div class="inline column">
+                            <p id="about">Greetings, and thanks for visiting my website portfolio! My name is Shane Falero.  I am a recently retired veterinarian with the 
+                                goal of growing and developing a new career within the software development industry.
+                            </p>  
+                            <p id="about">
+                                After three years of working within the veterinary profession, I opted for a change of career.  I have developed excellent customer 
+                                service skills, superlative communication skills, and have developed a bit of a creative spark as well.  Software Development gives me 
+                                the opportunity to build something of my own, problem solve, and work collaboratively on projects with others while utilizing some of the 
+                                necessary skills I have acquired along the way.  I wanted a change in pace to allow myself a bit more freedom on the home-front and be able 
+                                to manage my time more efficiently.  I look forward to what I can achieve within the field!
+                            </p>
+                        </div>  
+                    </div>
+                    <div class="right">
+                        <button id='aboutmebutton'><a href="./resources/aboutMe.html">Read More</a></button>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--social media-->
+            <section id="socialmedia" >
+                <ul id="socialmedialist" class="inline column">
+                <li><a id='linkedin' href="https://www.linkedin.com/in/shane-falero-3156ab233" class="fa fa-linkedin-square"></a>                                       
+                <li><a id='instagram' href="https://www.instagram.com/hilarious_falero/" class="fa fa-instagram"></a></li>
+                <li><a id='github' href="https://github.com/Falshyhub" class="fa fa-github"></a></li></li>
+                </ul>
+            </section>
+
+        <footer>
+            <section id="footer" class="flex">
+                <div id="quote" class="flex column">
+                    <h2>Let's build something great together</h2>
+                    <h4 id="motivation"><span>Coming Together is a <strong>beginning</strong>,</span><br>
+                        <span>Staying Together is <strong>progress</strong>,</span><br>
+                        <span>And working together is <strong>success</strong>.</span>
+                    </h4>
+                </div>
+                <button id="contactmebutton"><a href="./resources/contact.html">Contact Me</a></button>
+            </section>
+        </footer>    
+        </main>
+    </body>
+</html>
+
